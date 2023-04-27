@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "name": "Header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "React Avançado"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}
